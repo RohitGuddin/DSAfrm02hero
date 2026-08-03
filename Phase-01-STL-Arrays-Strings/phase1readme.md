@@ -1,565 +1,378 @@
-# 📖 Phase 1 – STL + Arrays + Strings + Pair (Foundation)
+# 📖 Phase 1 — STL + Arrays + Strings + Pair (Foundation)
 
-## 🎯 Goal
-
-Build a strong foundation in C++ STL and become comfortable with basic array and string manipulation before moving on to advanced DSA patterns.
-
----
-
-# 📚 Part 1: C++ STL (No LeetCode Yet)
-
-## 🔹 Vector
-
-### Learn
-
-* Declaration
-* Traversal
-* `push_back()`
-* `pop_back()`
-* `insert()`
-* `erase()`
-* `clear()`
-* `resize()`
-* `assign()`
-* `swap()`
-* `front()`
-* `back()`
-* `size()`
-* `empty()`
+### 🎯 Goal
+Build a strong foundation in C++ STL and get comfortable with basic array and string manipulation before moving on to advanced DSA patterns.
 
 ---
 
-## 🔹 STL Algorithms
+## 📚 Part 1 — C++ STL Fundamentals
+*Theory first, no LeetCode yet — get fluent with the containers before applying them.*
 
-Learn and practice the following:
+<details>
+<summary><b>🔹 Vector</b></summary>
 
-* `sort()`
-* `reverse()`
-* `find()`
-* `count()`
-* `max_element()`
-* `min_element()`
-* `accumulate()`
+- [ ] Declaration
+- [ ] Traversal
+- [ ] `push_back()`
+- [ ] `pop_back()`
+- [ ] `insert()`
+- [ ] `erase()`
+- [ ] `clear()`
+- [ ] `resize()`
+- [ ] `assign()`
+- [ ] `swap()`
+- [ ] `front()`
+- [ ] `back()`
+- [ ] `size()`
+- [ ] `empty()`
+
+</details>
+
+<details>
+<summary><b>🔹 STL Algorithms</b></summary>
+
+- [ ] `sort()`
+- [ ] `reverse()`
+- [ ] `find()`
+- [ ] `count()`
+- [ ] `max_element()`
+- [ ] `min_element()`
+- [ ] `accumulate()`
+
+</details>
+
+<details>
+<summary><b>🔹 String</b></summary>
+
+- [ ] `substr()`
+- [ ] `find()`
+- [ ] `erase()`
+- [ ] `insert()`
+- [ ] `append()`
+- [ ] `replace()`
+- [ ] `compare()`
+- [ ] `push_back()`
+- [ ] `pop_back()`
+- [ ] `tolower()`
+- [ ] `toupper()`
+- [ ] `isdigit()`
+- [ ] `isalpha()`
+
+</details>
+
+<details>
+<summary><b>🔹 Pair</b></summary>
+
+- [ ] `pair<int, int>`
+- [ ] `make_pair()`
+- [ ] `.first`
+- [ ] `.second`
+- [ ] `vector<pair<int, int>>`
+
+</details>
 
 ---
 
-## 🔹 String
+## 🧩 Part 2 — Practice Problems
 
-### Learn
+### 📌 Arrays (Striver + NeetCode)
 
-* `substr()`
-* `find()`
-* `erase()`
-* `insert()`
-* `append()`
-* `replace()`
-* `compare()`
-* `push_back()`
-* `pop_back()`
-* `tolower()`
-* `toupper()`
-* `isdigit()`
-* `isalpha()`
+#### Easy — Starters
+- [ ] **LC 1929** – [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
+- [ ] **LC 1480** – [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 
----
+#### 🔁 Prefix Sum / Running Sum Cluster
+- [ ] **LC 1732** – [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
+- [ ] **LC 2574** – [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)
+- [ ] **LC 724** – [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
+- [ ] **LC 1991** – [Find the Middle Index](https://leetcode.com/problems/find-the-middle-index-in-array/)
+- [ ] **LC 303** – [Range Sum Query – Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+- [ ] **LC 238** – [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
-## 🔹 Pair
-
-Learn
-
-* `pair<int, int>`
-* `make_pair()`
-* `.first`
-* `.second`
-* `vector<pair<int, int>>`
+> ⏳ **Revisit after Phase 2 (Hashing):**
+> - [ ] ⭐ **LC 560** – [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+> - [ ] ⭐ **LC 523** – [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
+> - [ ] ⭐ **LC 930** – [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
+> - [ ] ⭐ **LC 974** – [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
 ---
 
-# 🧩 Part 2: Practice Problems
+### 🧠 Anchor Problems — Deep Dives
 
-## 📌 Arrays (Striver + NeetCode)
+Each anchor problem below is the *representative* of a pattern cluster. Master the anchor, then clear its related problems.
 
-### Easy
+<details open>
+<summary><b>🔸 LC 26 — Remove Duplicates from Sorted Array</b></summary>
 
-* [ ] LC 1929 – Concatenation of Array
----------------------------------------------------------------------------------------------------------------------
-* [ ] LC 1480 – Running Sum of 1D Array
+**Pattern:** Two Pointers · In-place Modification · Slow & Fast Pointer · Sorted Array
 
-### Related Problems (Prefix Sum / Running Sum)
-
-- LC 1732 – Find the Highest Altitude
-- LC 2574 – Left and Right Sum Differences
-- LC 724 – Find Pivot Index
-- LC 1991 – Find the Middle Index
-- LC 303 – Range Sum Query – Immutable
-- LC 238 – Product of Array Except Self
-- LC 560 – Subarray Sum Equals K *(Phase 2)*
-
-After you start Phase 2 (Hashing), continue with:
-
-⭐ LC 560 – Subarray Sum Equals K
-⭐ LC 523 – Continuous Subarray Sum
-⭐ LC 930 – Binary Subarrays With Sum
-⭐ LC 974 – Subarray Sums Divisible by K
-
----------------------------------------------------------------------------------------------------------------------
-* [ ] LC 26 – Remove Duplicates from Sorted Array
-
-### LC 26 – Remove Duplicates from Sorted Array
-
-**Pattern**
-- Two Pointers
-- In-place Array Modification
-- Slow & Fast Pointer
-- Sorted Array
-
-**Concepts Learned**
+**Concepts learned**
 - Modify array without extra space
 - Maintain two pointers
 - Overwrite duplicate elements
 - Return the new valid length
 
-**Related Problems**
+**Related problems**
 
-#### Easy
-- [ ] LC 27 – Remove Element
-- [ ] LC 283 – Move Zeroes
-- [ ] LC 905 – Sort Array By Parity
-- [ ] LC 88 – Merge Sorted Array
+| Level | Problems |
+|---|---|
+| Easy | [LC 27 – Remove Element](https://leetcode.com/problems/remove-element/) · [LC 283 – Move Zeroes](https://leetcode.com/problems/move-zeroes/) · [LC 905 – Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) · [LC 88 – Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
+| Medium | ⭐ [LC 80 – Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) · [LC 75 – Sort Colors](https://leetcode.com/problems/sort-colors/) · [LC 31 – Next Permutation](https://leetcode.com/problems/next-permutation/) · [LC 189 – Rotate Array](https://leetcode.com/problems/rotate-array/) |
+| Advanced | [LC 167 – Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · [LC 11 – Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [LC 42 – Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
 
-#### Medium
-- [ ] LC 80 – Remove Duplicates from Sorted Array II ⭐
-- [ ] LC 75 – Sort Colors
-- [ ] LC 31 – Next Permutation
-- [ ] LC 189 – Rotate Array
+</details>
 
-#### Advanced Two Pointer Problems
-- [ ] LC 167 – Two Sum II
-- [ ] LC 11 – Container With Most Water
-- [ ] LC 42 – Trapping Rain Water
+<details>
+<summary><b>🔸 LC 27 — Remove Element</b></summary>
 
----------------------------------------------------------------------------------------------------------------------
-* [ ] LC 27 – Remove Element
-### LC 27 – Remove Element
+**Pattern:** Two Pointers · In-place Modification · Slow & Fast Pointer
 
-**Pattern**
-- Two Pointers
-- In-place Array Modification
-- Slow & Fast Pointer
-
-**Concepts Learned**
-- Remove elements without using extra space
+**Concepts learned**
+- Remove elements without extra space
 - Overwrite unwanted elements
 - Maintain the valid portion of the array
 - Return the new valid length
 
-**Time Complexity**
-- O(n)
+**Complexity:** Time `O(n)` · Space `O(1)`
 
-**Space Complexity**
-- O(1)
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | [LC 26 – Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [LC 283 – Move Zeroes](https://leetcode.com/problems/move-zeroes/) · [LC 905 – Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) · [LC 1929 – Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) · [LC 88 – Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
+| Medium | ⭐ [LC 80 – Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) · [LC 75 – Sort Colors](https://leetcode.com/problems/sort-colors/) · [LC 189 – Rotate Array](https://leetcode.com/problems/rotate-array/) · [LC 31 – Next Permutation](https://leetcode.com/problems/next-permutation/) |
+| Advanced | [LC 167 – Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · [LC 11 – Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [LC 42 – Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
 
-#### Easy
-- [ ] LC 26 – Remove Duplicates from Sorted Array
-- [ ] LC 283 – Move Zeroes
-- [ ] LC 905 – Sort Array By Parity
-- [ ] LC 1929 – Concatenation of Array
-- [ ] LC 88 – Merge Sorted Array
+</details>
 
-#### Medium
-- [ ] LC 80 – Remove Duplicates from Sorted Array II ⭐
-- [ ] LC 75 – Sort Colors
-- [ ] LC 189 – Rotate Array
-- [ ] LC 31 – Next Permutation
+<details>
+<summary><b>🔸 LC 66 — Plus One</b></summary>
 
-#### Advanced Two Pointer Problems
-- [ ] LC 167 – Two Sum II
-- [ ] LC 11 – Container With Most Water
-- [ ] LC 42 – Trapping Rain Water
+**Pattern:** Array Simulation · Carry Propagation · Digit Manipulation
 
----------------------------------------------------------------------------------------------------------------------
-
-* [ ] LC 66 – Plus One
-
-### LC 66 – Plus One
-
-**Pattern**
-- Array Simulation
-- Carry Propagation
-- Digit Manipulation
-
-**Concepts Learned**
-- Traverse an array from right to left
-- Handle carry while performing arithmetic
+**Concepts learned**
+- Traverse an array right to left
+- Handle carry during arithmetic
 - Modify an array in-place
-- Create a new array when overflow occurs (e.g., 999 → 1000)
+- Create a new array on overflow (e.g. `999 → 1000`)
 
-**Time Complexity**
-- O(n)
+**Complexity:** Time `O(n)` · Space `O(1)` *(ignoring the output array when a new one is created)*
 
-**Space Complexity**
-- O(1) *(Ignoring the output array when a new one is created)*
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | ⭐ [LC 989 – Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) · [LC 67 – Add Binary](https://leetcode.com/problems/add-binary/) · [LC 415 – Add Strings](https://leetcode.com/problems/add-strings/) |
+| Medium | [LC 43 – Multiply Strings](https://leetcode.com/problems/multiply-strings/) · [LC 2 – Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) · LC 369 – Plus One Linked List *(premium)* |
+| Advanced | [LC 7 – Reverse Integer](https://leetcode.com/problems/reverse-integer/) · [LC 8 – String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) · [LC 556 – Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |
 
-#### Easy
-- [ ] LC 989 – Add to Array-Form of Integer ⭐
-- [ ] LC 67 – Add Binary
-- [ ] LC 415 – Add Strings
+</details>
 
-#### Medium
-- [ ] LC 43 – Multiply Strings
-- [ ] LC 2 – Add Two Numbers *(Linked List)*
-- [ ] LC 369 – Plus One Linked List
+<details>
+<summary><b>🔸 LC 88 — Merge Sorted Array</b></summary>
 
-#### Advanced Digit Manipulation
-- [ ] LC 7 – Reverse Integer
-- [ ] LC 8 – String to Integer (atoi)
-- [ ] LC 556 – Next Greater Element III
+**Pattern:** Two Pointers · Sorted Arrays · In-place Modification · Reverse Traversal
 
----------------------------------------------------------------------------------------------------------------------
-
-
-* [ ] LC 88 – Merge Sorted Array
-
-### LC 88 – Merge Sorted Array
-
-**Pattern**
-- Two Pointers
-- Sorted Arrays
-- In-place Array Modification
-- Reverse Traversal
-
-**Concepts Learned**
+**Concepts learned**
 - Merge two sorted arrays efficiently
 - Use pointers from the end to avoid overwriting elements
 - Handle remaining elements after one array is exhausted
 - Understand the merge step used in Merge Sort
 
-**Time Complexity**
-- O(m + n)
+**Complexity:** Time `O(m + n)` · Space `O(1)`
 
-**Space Complexity**
-- O(1)
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | [LC 26 – Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [LC 27 – Remove Element](https://leetcode.com/problems/remove-element/) · [LC 977 – Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) |
+| Medium | ⭐ [LC 56 – Merge Intervals](https://leetcode.com/problems/merge-intervals/) · [LC 57 – Insert Interval](https://leetcode.com/problems/insert-interval/) · [LC 75 – Sort Colors](https://leetcode.com/problems/sort-colors/) · [LC 31 – Next Permutation](https://leetcode.com/problems/next-permutation/) |
+| Linked List variants | ⭐ [LC 21 – Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · [LC 23 – Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
+| Advanced | [LC 493 – Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) · [LC 315 – Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) · Merge Sort *(implement from scratch)* |
 
-#### Easy
-- [ ] LC 26 – Remove Duplicates from Sorted Array
-- [ ] LC 27 – Remove Element
-- [ ] LC 977 – Squares of a Sorted Array
+**Interview variations**
+- Merge three sorted arrays · Merge without extra space · Merge k sorted arrays · Merge intervals after sorting
 
-#### Medium
-- [ ] LC 56 – Merge Intervals ⭐
-- [ ] LC 57 – Insert Interval
-- [ ] LC 75 – Sort Colors
-- [ ] LC 31 – Next Permutation
-
-#### Linked List Variations
-- [ ] LC 21 – Merge Two Sorted Lists ⭐
-- [ ] LC 23 – Merge k Sorted Lists
-
-#### Advanced Merge Pattern
-- [ ] LC 493 – Reverse Pairs
-- [ ] LC 315 – Count of Smaller Numbers After Self
-- [ ] Merge Sort (Algorithm)
-
-**Interview Variations**
-- Merge three sorted arrays
-- Merge arrays without extra space
-- Merge k sorted arrays
-- Merge intervals after sorting
-
-**Common Mistakes**
+**Common mistakes**
 - Starting pointers from the beginning instead of the end
 - Forgetting to copy remaining elements from `nums2`
 - Incorrect pointer updates
 - Confusing array sizes (`m`, `n`) with total vector size
 
-**Prerequisites**
-- Two Pointers
-- Array Traversal
-- Basic Sorting
+**Prerequisites:** Two Pointers · Array Traversal · Basic Sorting
 
-**Next Problems**
-- LC 21 – Merge Two Sorted Lists
-- LC 56 – Merge Intervals
-- LC 23 – Merge k Sorted Lists
+**Next up:** LC 21 → LC 56 → LC 23
 
----------------------------------------------------------------------------------------------------------------------
+</details>
 
-* [ ] LC 283 – Move Zeroes
+<details>
+<summary><b>🔸 LC 283 — Move Zeroes</b></summary>
 
-### LC 283 – Move Zeroes
+**Pattern:** Two Pointers · In-place Modification · Stable Partition
 
-**Pattern**
-- Two Pointers
-- In-place Array Modification
-- Stable Partition
-
-**Concepts Learned**
-- Move elements while maintaining their relative order
+**Concepts learned**
+- Move elements while preserving relative order
 - Use slow and fast pointers efficiently
-- Perform in-place swaps with O(1) extra space
+- Perform in-place swaps with `O(1)` extra space
 - Understand stable partitioning of an array
 
-**Time Complexity**
-- O(n)
+**Complexity:** Time `O(n)` · Space `O(1)`
 
-**Space Complexity**
-- O(1)
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | [LC 27 – Remove Element](https://leetcode.com/problems/remove-element/) · [LC 26 – Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [LC 905 – Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) · [LC 1089 – Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) |
+| Medium | ⭐ [LC 75 – Sort Colors](https://leetcode.com/problems/sort-colors/) · [LC 189 – Rotate Array](https://leetcode.com/problems/rotate-array/) · [LC 31 – Next Permutation](https://leetcode.com/problems/next-permutation/) · [LC 80 – Remove Duplicates II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |
+| Advanced | [LC 167 – Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · [LC 11 – Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [LC 42 – Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
 
-#### Easy
-- [ ] LC 27 – Remove Element
-- [ ] LC 26 – Remove Duplicates from Sorted Array
-- [ ] LC 905 – Sort Array By Parity
-- [ ] LC 1089 – Duplicate Zeros
+**Interview variations**
+- Move all negatives to the front · Move evens before odds · Partition around a pivot · Segregate 0s and 1s · Dutch National Flag (0s, 1s, 2s)
 
-#### Medium
-- [ ] LC 75 – Sort Colors ⭐
-- [ ] LC 189 – Rotate Array
-- [ ] LC 31 – Next Permutation
-- [ ] LC 80 – Remove Duplicates from Sorted Array II
-
-#### Advanced Two Pointer Problems
-- [ ] LC 167 – Two Sum II
-- [ ] LC 11 – Container With Most Water
-- [ ] LC 42 – Trapping Rain Water
-
-**Interview Variations**
-- Move all negative numbers to the beginning
-- Move all even numbers before odd numbers
-- Partition an array based on a pivot
-- Segregate 0s and 1s
-- Segregate 0s, 1s, and 2s (Dutch National Flag)
-
-**Common Mistakes**
+**Common mistakes**
 - Swapping every element unnecessarily
-- Not preserving the relative order of non-zero elements
-- Forgetting to handle arrays with no zeros or all zeros
+- Not preserving relative order of non-zero elements
+- Not handling arrays with no zeros / all zeros
 - Using extra arrays instead of solving in-place
 
-**Prerequisites**
-- Array Traversal
-- Two Pointers
-- Swapping Elements
+**Prerequisites:** Array Traversal · Two Pointers · Swapping Elements
 
-**Next Problems**
-- LC 75 – Sort Colors
-- LC 905 – Sort Array By Parity
-- LC 80 – Remove Duplicates from Sorted Array II
-- LC 11 – Container With Most Water
+**Next up:** LC 75 → LC 905 → LC 80 → LC 11
 
----------------------------------------------------------------------------------------------------------------------
+</details>
 
-* [ ] LC 189 – Rotate Array
+<details>
+<summary><b>🔸 LC 189 — Rotate Array</b></summary>
 
-### LC 189 – Rotate Array
+**Pattern:** Array Manipulation · Reversal Algorithm · Cyclic Shift · Two Pointers
 
-**Pattern**
-- Array Manipulation
-- Reversal Algorithm
-- Cyclic Shift
-- Two Pointers
-
-**Concepts Learned**
+**Concepts learned**
 - Rotate an array by `k` positions
 - Reverse parts of an array
-- Optimize space from O(n) to O(1)
+- Optimize space from `O(n)` to `O(1)`
 - Handle `k > n` using modulo (`k %= n`)
 
-**Time Complexity**
-- O(n)
+**Complexity:** Time `O(n)` · Space `O(1)` *(using the Reversal Algorithm)*
 
-**Space Complexity**
-- O(1) *(Using Reversal Algorithm)*
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | [LC 283 – Move Zeroes](https://leetcode.com/problems/move-zeroes/) · [LC 977 – Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) · [LC 88 – Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) · [LC 485 – Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) |
+| Medium | ⭐ [LC 31 – Next Permutation](https://leetcode.com/problems/next-permutation/) · [LC 75 – Sort Colors](https://leetcode.com/problems/sort-colors/) · ⭐ [LC 48 – Rotate Image](https://leetcode.com/problems/rotate-image/) · [LC 396 – Rotate Function](https://leetcode.com/problems/rotate-function/) |
+| Advanced | [LC 41 – First Missing Positive](https://leetcode.com/problems/first-missing-positive/) · [LC 238 – Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · [LC 1861 – Rotating the Box](https://leetcode.com/problems/rotating-the-box/) |
 
-#### Easy
-- [ ] LC 283 – Move Zeroes
-- [ ] LC 977 – Squares of a Sorted Array
-- [ ] LC 88 – Merge Sorted Array
-- [ ] LC 485 – Max Consecutive Ones
+**Interview variations**
+- Rotate left · Rotate by one position · Rotate a string · Rotate a linked list · Rotate a matrix 90° · Circular array traversal
 
-#### Medium
-- [ ] LC 31 – Next Permutation ⭐
-- [ ] LC 75 – Sort Colors
-- [ ] LC 48 – Rotate Image ⭐
-- [ ] LC 396 – Rotate Function
-
-#### Advanced Array Manipulation
-- [ ] LC 41 – First Missing Positive
-- [ ] LC 238 – Product of Array Except Self
-- [ ] LC 1861 – Rotating the Box
-
-**Interview Variations**
-- Rotate array to the left
-- Rotate array by one position
-- Rotate a string
-- Rotate a linked list
-- Rotate a matrix by 90°
-- Circular array traversal
-
-**Common Mistakes**
+**Common mistakes**
 - Forgetting `k %= n`
 - Incorrect reverse ranges
-- Using O(n) extra space when O(1) is possible
+- Using `O(n)` extra space when `O(1)` is possible
 - Off-by-one errors while reversing
 
-**Prerequisites**
-- Array Traversal
-- Two Pointers
-- Reversing an Array
+**Prerequisites:** Array Traversal · Two Pointers · Reversing an Array
 
-**Next Problems**
-- LC 48 – Rotate Image
-- LC 31 – Next Permutation
-- LC 396 – Rotate Function
-- LC 61 – Rotate List
+**Next up:** LC 48 → LC 31 → LC 396 → LC 61
 
+</details>
 
----------------------------------------------------------------------------------------------------------------------
+<details>
+<summary><b>🔸 LC 977 — Squares of a Sorted Array</b></summary>
 
+**Pattern:** Two Pointers · Sorted Arrays · Array Construction
 
-* [ ] LC 977 – Squares of a Sorted Array
-
-### LC 977 – Squares of a Sorted Array
-
-**Pattern**
-- Two Pointers
-- Sorted Arrays
-- Array Construction
-
-**Concepts Learned**
+**Concepts learned**
 - Use two pointers from opposite ends of a sorted array
 - Compare absolute values instead of actual values
 - Build the answer array from the end
-- Avoid sorting after squaring
+- Avoid re-sorting after squaring
 
-**Time Complexity**
-- O(n)
+**Complexity:** Time `O(n)` · Space `O(n)`
 
-**Space Complexity**
-- O(n)
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | [LC 26 – Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [LC 27 – Remove Element](https://leetcode.com/problems/remove-element/) · [LC 88 – Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) · [LC 283 – Move Zeroes](https://leetcode.com/problems/move-zeroes/) · [LC 189 – Rotate Array](https://leetcode.com/problems/rotate-array/) |
+| Medium | ⭐ [LC 167 – Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · ⭐ [LC 11 – Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · ⭐ [LC 15 – 3Sum](https://leetcode.com/problems/3sum/) · [LC 18 – 4Sum](https://leetcode.com/problems/4sum/) · [LC 16 – 3Sum Closest](https://leetcode.com/problems/3sum-closest/) |
+| Advanced | [LC 42 – Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) · [LC 881 – Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) · [LC 948 – Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) |
 
-#### Easy
-- [ ] LC 26 – Remove Duplicates from Sorted Array
-- [ ] LC 27 – Remove Element
-- [ ] LC 88 – Merge Sorted Array
-- [ ] LC 283 – Move Zeroes
-- [ ] LC 189 – Rotate Array
+**Interview variations**
+- Return cubes of a sorted array · Merge squares of two sorted arrays · Find a pair with a target sum · Count pairs satisfying a condition
 
-#### Medium
-- [ ] LC 167 – Two Sum II – Input Array Is Sorted ⭐
-- [ ] LC 11 – Container With Most Water ⭐
-- [ ] LC 15 – 3Sum ⭐
-- [ ] LC 18 – 4Sum
-- [ ] LC 16 – 3Sum Closest
-
-#### Advanced Two Pointer Problems
-- [ ] LC 42 – Trapping Rain Water
-- [ ] LC 881 – Boats to Save People
-- [ ] LC 948 – Bag of Tokens
-
-**Interview Variations**
-- Return cubes of a sorted array
-- Merge squares of two sorted arrays
-- Find pair with target sum in a sorted array
-- Count pairs satisfying a condition
-
-**Common Mistakes**
-- Squaring every element and sorting again (O(n log n))
-- Comparing values instead of absolute values
-- Filling the answer array from the beginning instead of the end
+**Common mistakes**
+- Squaring every element and re-sorting (`O(n log n)`)
+- Comparing raw values instead of absolute values
+- Filling the answer array from the front instead of the back
 - Incorrect pointer movement
 
-**Prerequisites**
-- Array Traversal
-- Two Pointers
-- Sorted Arrays
+**Prerequisites:** Array Traversal · Two Pointers · Sorted Arrays
 
-**Next Problems**
-- LC 167 – Two Sum II
-- LC 15 – 3Sum
-- LC 11 – Container With Most Water
-- LC 42 – Trapping Rain Water
+**Next up:** LC 167 → LC 15 → LC 11 → LC 42
 
----------------------------------------------------------------------------------------------------------------------
+</details>
 
-* [ ] LC 485 – Max Consecutive Ones
+<details>
+<summary><b>🔸 LC 485 — Max Consecutive Ones</b></summary>
 
-### LC 485 – Max Consecutive Ones
+**Pattern:** Array Traversal · Counting · Sliding Window (Foundation)
 
-**Pattern**
-- Array Traversal
-- Counting
-- Sliding Window (Foundation)
-
-**Concepts Learned**
+**Concepts learned**
 - Traverse an array in a single pass
 - Maintain a running count
 - Reset state when a condition changes
 - Track the maximum value seen so far
 - Foundation for variable-size sliding window problems
 
-**Time Complexity**
-- O(n)
+**Complexity:** Time `O(n)` · Space `O(1)`
 
-**Space Complexity**
-- O(1)
+**Related problems**
 
-**Related Problems**
+| Level | Problems |
+|---|---|
+| Easy | LC 487 – Max Consecutive Ones II *(premium)* ⭐ · [LC 414 – Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) · [LC 1295 – Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) · [LC 1732 – Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) |
+| Medium | ⭐⭐⭐ [LC 1004 – Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) · ⭐⭐ [LC 1493 – Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) · [LC 904 – Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) · [LC 424 – Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) |
+| Advanced | [LC 3 – Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [LC 209 – Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) · [LC 76 – Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |
 
-#### Easy
-- [ ] LC 487 – Max Consecutive Ones II ⭐
-- [ ] LC 414 – Third Maximum Number
-- [ ] LC 1295 – Find Numbers with Even Number of Digits
-- [ ] LC 1732 – Find the Highest Altitude
+**Interview variations**
+- Max consecutive even/odd numbers · Max consecutive positive numbers · Longest streak after one modification · Longest streak after deleting one element
 
-#### Medium
-- [ ] LC 1004 – Max Consecutive Ones III ⭐⭐⭐
-- [ ] LC 1493 – Longest Subarray of 1's After Deleting One Element ⭐⭐
-- [ ] LC 904 – Fruit Into Baskets
-- [ ] LC 424 – Longest Repeating Character Replacement
-
-#### Advanced Sliding Window
-- [ ] LC 3 – Longest Substring Without Repeating Characters
-- [ ] LC 209 – Minimum Size Subarray Sum
-- [ ] LC 76 – Minimum Window Substring
-
-**Interview Variations**
-- Maximum consecutive even numbers
-- Maximum consecutive odd numbers
-- Maximum consecutive positive numbers
-- Longest streak after one modification
-- Longest streak after deleting one element
-
-**Common Mistakes**
-- Forgetting to update the maximum after the loop
+**Common mistakes**
+- Forgetting to update the max after the loop ends
 - Not resetting the counter correctly
 - Using extra space unnecessarily
-- Confusing counting with sliding window
+- Confusing plain counting with sliding window
 
-**Prerequisites**
-- Array Traversal
-- Basic Loops
-- Variables for running count
+**Prerequisites:** Array Traversal · Basic Loops · Running-count Variables
 
-**Next Problems**
-- LC 487 – Max Consecutive Ones II
-- LC 1004 – Max Consecutive Ones III
-- LC 1493 – Longest Subarray of 1's After Deleting One Element
-- LC 904 – Fruit Into Baskets
+**Next up:** LC 487 → LC 1004 → LC 1493 → LC 904
 
----------------------------------------------------------------------------------------------------------------------
-> These problems align with the **Arrays (Easy)** section of the Striver A2Z DSA Sheet.
+</details>
+
+---
+
+## 🗂️ Suggested Attack Order
+
+```
+STL Fundamentals (Vector, Algorithms, String, Pair)
+        ↓
+LC 1929 → LC 1480 → Prefix Sum Cluster
+        ↓
+LC 26 → LC 27 → LC 283  (Two Pointers / In-place)
+        ↓
+LC 88 → LC 189           (Merge & Rotation)
+        ↓
+LC 66  (Digit Simulation)
+        ↓
+LC 977 (Two Pointers, Opposite Direction)
+        ↓
+LC 485 → Sliding Window Foundation → Phase 2 (Hashing)
+```
+
+---
+
+*Compiled as a personal DSA prep tracker · Pairs well with the Striver SDE Sheet.*
 
 ---
 # 🧩 DSA Pattern Playbook — Arrays & Strings
